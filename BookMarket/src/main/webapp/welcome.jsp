@@ -17,7 +17,7 @@
         <div class="p-5 mb-4 bg-body-teritory rounded-3">
             <div class="container-fluid py-5">
                 <h1 class="display-5 fw-bold"><%= greeting %></h1>
-                <p class="col-md-8 fs-4">Book1Market</p>
+                <p class="col-md-8 fs-4">BookMarket</p>
             </div>
         </div>
 
