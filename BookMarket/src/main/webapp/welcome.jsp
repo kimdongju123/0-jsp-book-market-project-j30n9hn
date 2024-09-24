@@ -1,4 +1,4 @@
-<%@ page language="java" contentype="text/html; charset=utf-8" %>
+<%@ page language="java" contentType="text/html; charset=utf-8" %>
 <%@ page import = "java.util.Date" %>
 <!DOCTYPE html>
 <html>
@@ -17,7 +17,7 @@
         <div class="p-5 mb-4 bg-body-teritory rounded-3">
             <div class="container-fluid py-5">
                 <h1 class="display-5 fw-bold"><%= greeting %></h1>
-                <p class="col-md-8 fs-4">BookMarket</p>
+                <p class="col-md-8 fs-4">Book1Market</p>
             </div>
         </div>
 
@@ -33,7 +33,7 @@
                         int sec = day.getSeconds();
 
                         if (hour / 12 == 0) {
-                            am_pm = "AM;"
+                            am_pm = "AM";
                         } else {
                             am_pm = "PM";
                             hour -=12;
